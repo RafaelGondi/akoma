@@ -23,9 +23,9 @@ export default defineConfig({
 		target: ['es2020', 'safari14', 'chrome87', 'edge88', 'firefox78'],
 		lib: {
 			entry: path.resolve(__dirname, './src/components/index.ts'),
-			name: '@sysvale/cuida',
+			name: 'akoma',
 			// the proper extensions will be added
-			fileName: (format) => `@sysvale/cuida.${format}.js`,
+			fileName: (format) => `akoma.${format}.js`,
 		},
 		rollupOptions: {
 			// make sure to externalize deps that shouldn't be bundled

@@ -1,24 +1,24 @@
 {
-	"name": "@sysvale/cuida",
-	"version": "3.102.1",
+	"name": "akoma",
+	"version": "0.0.1",
 	"description": "A design system built by Sysvale, using storybook and Vue components",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Sysvale/cuida.git"
+		"url": "git+https://github.com/RafaelGondi/akoma.git"
 	},
-	"main": "./dist/@sysvale/cuida.umd.js",
-	"module": "./dist/@sysvale/cuida.es.js",
+	"main": "./dist/akoma.umd.js",
+	"module": "./dist/akoma.es.js",
 	"files": [
 		"dist/*"
 	],
 	"exports": {
 		".": {
-			"import": "./dist/@sysvale/cuida.es.js",
-			"require": "./dist/@sysvale/cuida.umd.js"
+			"import": "./dist/akoma.es.js",
+			"require": "./dist/akoma.umd.js"
 		},
 		"./dist/style.css": "./dist/style.css"
 	},
-	"unpkg": "dist/@sysvale/cuida.umd.js",
+	"unpkg": "dist/akoma.umd.js",
 	"scripts": {
 		"build": "vue-tsc --noEmit && vite build && node buildtokens.js",
 		"preview": "vite preview",
@@ -57,6 +57,7 @@
 		"@storybook/testing-library": "^0.0.13",
 		"@storybook/vue3": "^6.5.10",
 		"@types/vue": "^2.0.0",
+		"@vitejs/plugin-vue": "^5.1.4",
 		"@vue/test-utils": "^2.0.2",
 		"babel-loader": "^8.2.5",
 		"concat": "^1.0.3",
@@ -68,14 +69,7 @@
 		"typescript": "^4.6.4",
 		"vite": "^5.4.10",
 		"vitest": "^3.0.2",
-		"@vitejs/plugin-vue": "^5.1.4",
 		"vue-loader": "^16.8.3",
 		"vue-tsc": "^0.38.4"
-	},
-	"bugs": {
-		"url": "https://github.com/Sysvale/cuida/issues"
-	},
-	"readme": "ERROR: No README data found!",
-	"homepage": "https://github.com/Sysvale/cuida#readme",
-	"_id": "@sysvale/cuida@3.0.0-alpha.21"
+	}
 }
