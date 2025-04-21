@@ -1,6 +1,6 @@
 {
 	"name": "akoma",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "A design system built by Sysvale, using storybook and Vue components",
 	"repository": {
 		"type": "git",
